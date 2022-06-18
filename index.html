@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="selCountry()">
+    <nav>
+        <div class="title">ProGrad News App</div>
+        <div class="navItem">Top</div>
+        <select name="" id="" class="navItem" onchange="selCountry()">
+            <option value="in">IN: India</option>
+            <option value="us">US: United States</option>
+        </select>
+    </nav>
+    <div id="newsContent"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
